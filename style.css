@@ -1,0 +1,517 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    
+  
+}
+
+/*navigation  */
+.container {
+    height: auto;
+    max-width: 99.7%;
+    border: 1px solid white;
+    background-color: rgb(11, 234, 45);
+    position: relative;
+    -webkit-box-align: center;
+}
+
+.navi {
+    height: 80px;
+    max-width: 100%;
+    border: 2px solid whitesmoke;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(245, 245, 245);
+    z-index: 1;
+}
+
+.img1 {
+    height: 57px;
+    width: 8%;
+    position: absolute;
+    top: 8.5px;
+    left: 1rem;
+
+}
+
+.list1 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 30%;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.list1 li {
+    margin-left: 30px;
+    list-style: none;
+
+
+}
+
+.list1 a {
+    text-decoration: none;
+    color: black;
+
+
+}
+.bars{ margin-left: 50rem;
+    display: none;
+   
+   
+}
+
+.form {
+    margin-left: 72rem;
+    height: 25px;
+    width: 190px;
+    position: absolute;
+    top: 25px;
+    border-radius: 5px;
+
+}
+
+.search {
+    height: 27px;
+    width: 80px;
+    position: absolute;
+    top: 25px;
+    left: 85.4rem;
+    border-radius: 5px;
+
+}
+
+.search:hover {
+    background-color: black;
+    color: white;
+}
+
+/* response navbar */
+@media (max-width:480px) {
+    .container {
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+
+    }
+
+    .navi {
+        max-width: 99.7%;
+        height: 90px;
+
+
+    }
+
+    .img1 {
+        height: 60px;
+        width: 25%;
+    }
+
+    .list1 li {
+        display: none;
+    }
+    .bars{
+        display: block;
+        font-size: 2rem;
+        margin-left: 21rem;
+        margin-top: -10px;
+        
+        
+    }
+
+    .form {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
+
+/* body 1 */
+.content {
+    height: 450px;
+    width: 99.9%;
+    border: 1px solid WHITE;
+    position: absolute;
+    top: 79px;
+    background-color: brown;
+    background-image: url(david-van-dijk-3LTht2nxd34-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.head1 {
+    margin-left: 12rem;
+    margin-top: 7rem;
+    font-size: 40px;
+}
+
+.para1 {
+    margin-left: 13rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.769);
+}
+
+.click {
+    border: 1px solid black;
+    height: 40px;
+    width: 90px;
+    margin-left: 23rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+.click:hover {
+    background-color: rgba(143, 238, 230, 0.484);
+    color: black;
+}
+
+/* body1 response */
+@media (max-width:480px) {
+    .content {
+        max-width: 99.7%;
+        height: 370px;
+    }
+
+    .head1 {
+        margin-left: 2rem;
+        font-size: 30px;
+        margin-top: 5rem;
+    }
+
+    .head1:hover {
+        color: rgb(22, 56, 226);
+    }
+
+    .para1 {
+        margin-left: 0.8rem;
+        font-size: 16px;
+    }
+
+    .click {
+        margin-left: 150px;
+        height: 38px;
+        width: 90px;
+    }
+}
+
+/*image card  */
+.content2 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.927);
+    width: 99.9%;
+    height: 440px;
+    top: 33rem;
+   
+}
+
+.box1 {
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    background-image: url(donald-giannatti-Wj1D-qiOseE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5.2rem;
+    margin-top: 3rem;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.head2 {
+    margin-top: 14rem;
+    margin-left: 1.7rem;
+}
+
+.para2 {
+    margin-top: 1.5rem;
+    margin-left: 1.7rem;
+    color: rgba(0, 0, 0, 0.824);
+}
+
+.box2 {
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    background-image: url(tadej-skofic-VWxiaKn-lVc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 36rem;
+    margin-top: 3rem;
+    position: absolute;
+    border-radius: 5px;
+    
+}
+
+.head3 {
+    margin-top: 14rem;
+    margin-left: 1.7rem;
+}
+
+.para3 {
+    margin-top: 1.5rem;
+    margin-left: 1.7rem;
+    color: rgba(0, 0, 0, 0.824);
+}
+
+.box3 {
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    background-image: url(mike-newbry-1OnoErWBmRk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 65rem;
+    margin-top: 3rem;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.head4 {
+    margin-top: 14rem;
+    margin-left: 1.7rem;
+}
+
+.para4 {
+    margin-top: 1.5rem;
+    margin-left: 1.7rem;
+    color: rgba(0, 0, 0, 0.824);
+}
+
+/* response image card */
+
+@media (max-width:420px) {
+    .content2 {
+
+        max-width: 99.7%;
+        height: 81rem;
+        top: 28.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 {
+        margin-left: 3.3rem;
+        margin-top: 5rem;
+    }
+
+    .head2 {}
+
+    .para2 {}
+
+    .box2 {
+        margin-left: 3.3rem;
+        margin-top: 30rem;
+    }
+
+    .head3 {}
+
+    .para3 {}
+
+    .box3 {
+        margin-left: 3.3rem;
+        margin-top: 55rem;
+    }
+
+    .head4 {}
+
+    .para4 {}
+}
+
+/* fixed image */
+.content3 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: rgb(90, 221, 97);
+    width: 99.9%;
+    height: 440px;
+    top: 60.5rem;
+    background-image: url(flowerpot.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.head5 {
+    margin-left: 48rem;
+    margin-top: 5rem;
+    font-size: 42px;
+
+}
+
+.para5 {
+    margin-left: 43rem;
+    margin-top: 2rem;
+    font-size: 17px;
+
+}
+
+.press {
+    border: 1px solid black;
+    height: 40px;
+    width: 90px;
+    margin-left: 50rem;
+    margin-top: 1.7rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+
+}
+
+.press:hover {
+    background-color: rgba(143, 238, 230, 0.484);
+    color: black;
+}
+
+/*response fixed image  */
+
+@media (max-width:420px) {
+    .content3 {
+        max-width: 99.7%;
+        height: 372px;
+        top: 109rem;
+    }
+
+    .head5 {
+        margin-left: 8rem;
+        font-size: 40px;
+    }
+
+    .para5 {
+        margin-left: 2.9rem;
+        font-size: 16px;
+    }
+
+    .press {
+        margin-left: 9rem;
+
+    }
+}
+
+/*footer */
+
+.content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid white;
+    background-color: grey;
+    width: 99.9%;
+    height: 350px;
+    top: 87.9rem;
+   display: flex;
+   gap: 2rem;
+  
+}
+
+.main-footer{
+    width:26rem ;
+    height: 15rem;
+    /* border: 1px dotted grey; */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.886);
+    
+}
+/*  */
+@media (max-width:420px){
+    .content4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 44rem;
+       height: 53rem;
+
+    .main-footer{
+        width:19rem;
+       
+        /* border: 1px dotted black; */
+    }
+    
+
+}
+
+}
+.footer-container{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.886);
+}
+
+.footer-container > h1{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+/*  */
+.lastfooter{
+    display:flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    position: absolute;
+    width: 95.6%;
+    height: auto;
+    border: 1px solid grey;
+    background-color: grey  ;
+    top: 109.6rem;
+    
+}
+
+.footer-icon{
+   
+ width: 100px;
+
+ 
+}
+
+.footer-img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-para{
+    font-size: 17px;
+ 
+}
+
+          /*  */
+
+@media (max-width:420px){
+.lastfooter{
+    width: 99.7%;
+    top: 179.2rem;
+    padding: 0%;
+    
+ 
+}
+.footer-img{
+    width: 25px;
+    height: 25px;
+    margin-top: 1rem;
+   
+}
+.footer-para{
+    font-size: 17px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+}
